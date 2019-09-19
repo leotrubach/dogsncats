@@ -8,7 +8,7 @@ def build(c):
 
 @task
 def db(c):
-    c.run("docker-compose up -d")
+    c.run("docker-compose up -d postgres")
 
 
 @task

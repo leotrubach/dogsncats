@@ -7,9 +7,11 @@ Owners should be able to access dogs and cats via an API and carry out CRUD oper
 
 Owners should also be able to access dogs and cats via an admin interface.
 
-#### Quickstart
-Assuming that you have created virtual env and have Docker installed on your machine.
+#### Quickstart (local setup)
+Assuming that you have created and activated virtual env and have Docker installed on
+your machine.
 ```bash
+cp .env.local.example .env
 pip install -r requirements
 inv db
 inv setup
