@@ -4,7 +4,7 @@ Django==2.2.8
 django-enumfield==1.5
 django-environ==0.4.5
 django-extensions==2.2.1
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 factory-boy==2.12.0
 Faker==2.0.2
 importlib-metadata==0.23
